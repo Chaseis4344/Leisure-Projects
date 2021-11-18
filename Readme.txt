@@ -1,6 +1,6 @@
 
   Context: Canvas has a Plugin called A+ Attendance, which my school uses for Attendance purposes
-  I enjoy breaking things, so what better way to break attendance than to stroe every possible code
+  I enjoy breaking things, so what better way to break attendance than to store every possible code
   it will ever generate on a single file?
 
   Make something that does it automatically
