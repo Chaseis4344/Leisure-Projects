@@ -45,7 +45,7 @@ string reverse(string const str)
  
 char reVal(int num)
 {
-  //If between 0 and 9 take the number and add ascii for 0 else add ascii for A
+  //If between 0 and 9 take the number and add ascii for 0-9 else add ascii for A-Z
   return (num>=0&&num<=9)? ((char)(num + '0')) : (char)(num - 10 + 'A');
 }
 string baseConv(int base, int inputNum)
@@ -72,7 +72,7 @@ int main()
 {
   //36^5 is the max num of possible codes via Multiplication Rule
   long int max = pow(36,5);
-  long int min =  1679615; //First 5-digit base 36 number
+  long int min =  1679615; //First 5-digit base 36 number in Base-10
   //File Output
   ofstream Out;
   Out.open("Attendance_Codes.txt");
